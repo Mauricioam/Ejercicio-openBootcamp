@@ -1,12 +1,12 @@
 
 import './App.css';
-import ContactListComponent from './containers/contact.list';
+import ComponenteA from './containers/contact.list';
 
 function App() {
   return (
     <div>
       <header>
-      <ContactListComponent/>
+      <ComponenteA/>
       </header>
     </div>
   );
