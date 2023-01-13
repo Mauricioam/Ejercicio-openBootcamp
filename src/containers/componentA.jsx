@@ -1,5 +1,5 @@
 import React from 'react'
-import ComponenteB from '../components/pure/contact';
+import ComponenteB from '../components/pure/componenteB';
 import { Contact } from '../models/contact.class'
 
 export default function ComponenteA() {
@@ -9,8 +9,11 @@ export default function ComponenteA() {
   return (
     <div>
         <h2>Contacto:</h2>
+        <h1>Nombre: {defaultContact.name}</h1>
+        <h2>Apellido : {defaultContact.lastname}</h2>
+        <h3>Email : {defaultContact.email}</h3>
         <div>
-            <ComponenteB contact={defaultContact}/>
+            <ComponenteB state={true}/>
         </div>
     </div>
   )

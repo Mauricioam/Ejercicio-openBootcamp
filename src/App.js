@@ -1,6 +1,6 @@
 
 import './App.css';
-import ComponenteA from './containers/contact.list';
+import ComponenteA from './containers/componentA';
 
 function App() {
   return (
